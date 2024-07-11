@@ -22,3 +22,4 @@ dependencyResolutionManagement {
 rootProject.name = "MyMathNative"
 include(":app")
 include(":area_lib")
+include(":operations_lib")

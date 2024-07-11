@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.area_lib"
+    namespace = "com.example.operations_lib"
     compileSdk = 34
 
     defaultConfig {
@@ -37,7 +37,6 @@ dependencies {
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
-    implementation(project(":operations_lib"))
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
